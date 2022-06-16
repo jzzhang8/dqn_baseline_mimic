@@ -111,8 +111,8 @@ for host_num in [16, 64, 128]:
 	print("gt latency num:", len(gt_latency) )
 	print("pred latency num:", len(pred_latency) )
 
-	print("W1 value as:")
-	print(w1(gt_latency, pred_latency))
+	print("Normalized W1 value as:")
+	print(w1(gt_latency, pred_latency) / w1([0 for _ in range(len(gt_latency))], gt_latency))
 
 	plot_cdf(gt_latency, pred_latency, label="GT", label2="Pred", savename="fattree{}_cdf".format(host_num))
 
