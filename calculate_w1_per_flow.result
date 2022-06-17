@@ -1,0 +1,34 @@
+
+FatTree  16
+
+Per flow normalized avgRTT W1
+0.00904416362310142
+Per flow normalized p99RTT W1
+0.013484709384210375
+Per flow normalized avgJitter W1
+2.0440218336015046
+Per flow normalized p99Jitter W1
+0.11906087808771564
+
+FatTree  64
+
+Per flow normalized avgRTT W1
+0.016705030276555625
+Per flow normalized p99RTT W1
+0.017919930163189948
+Per flow normalized avgJitter W1
+1.8186035737487238
+Per flow normalized p99Jitter W1
+0.18818961403311588
+
+FatTree  128
+
+Per flow normalized avgRTT W1
+0.017167877378380186
+Per flow normalized p99RTT W1
+0.019374944661916214
+Per flow normalized avgJitter W1
+1.4662792787280141
+Per flow normalized p99Jitter W1
+0.19895285200873924
+
